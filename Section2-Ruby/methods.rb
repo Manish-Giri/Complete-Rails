@@ -3,5 +3,12 @@ def multiply(a,b)
   a.to_f * b.to_f
 end
 
+def divide(a,b)
+  # convert numbers to floats and divide
+  if b != 0
+    a.to_f / b.to_f
+  end
+end
+
 
 
