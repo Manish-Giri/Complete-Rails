@@ -10,5 +10,11 @@ def divide(a,b)
   end
 end
 
+def add(a,b)
+  a.to_f + b.to_f
+end
 
+def subtract(a,b)
+  a.to_f - b.to_f
+end
 
